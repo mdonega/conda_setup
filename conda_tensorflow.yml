@@ -1,0 +1,13 @@
+name: tensorflow
+dependencies:
+  - cudatoolkit=9.0
+  - tensorflow
+  - h5py
+  - pytables
+  - ipykernel
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
