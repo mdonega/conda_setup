@@ -1,3 +1,5 @@
 root_numpy
 root_pandas
+tqdm
+bayesian-optimization
 
