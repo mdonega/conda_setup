@@ -7,14 +7,14 @@
 
 ### Creating and updating environements
 
-For each envirinements there are two packages lists:
+For each environement there are two packages lists:
 - `conda_<env>.yml` for conda packages
 - `conda_<env>_pip.txt` for additional pip packages
 
 The conda yml file can be used to either create or update the environments
 
-- **create environment**: `conda env create -f conda_<env>.yml
-- **update environmant**: `conda env update -f conda_<env>.yml
+- create: `conda env create -f conda_<env>.yml`
+- update: `conda env update -f conda_<env>.yml`
 
 Once the enviroment has been created pip packages can be added (**note**: for this to work pip must be installed in each enviroment by putting it in the yml file).
 
