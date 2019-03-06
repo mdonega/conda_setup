@@ -1,7 +1,7 @@
-name: tensorflow
+name: tensorflow_gpu
 dependencies:
+  - tensorflow-gpu
   - cudatoolkit=9.0
-  - tensorflow
   - h5py
   - pytables
   - ipykernel

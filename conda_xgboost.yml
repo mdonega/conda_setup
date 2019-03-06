@@ -1,7 +1,6 @@
-name: tensorflow
+name: xgboost
 dependencies:
-  - cudatoolkit=9.0
-  - tensorflow
+  - py-xgboost-gpu
   - h5py
   - pytables
   - ipykernel
@@ -12,3 +11,4 @@ dependencies:
   - scipy
   - scikit-learn
   - more-itertools
+

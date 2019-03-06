@@ -1,5 +1,11 @@
-name: tensorflow
+name: python2
 dependencies:
+  - nomkl
+  - jupyterlab
+  - pip
+  - pandas
+  - numpy
+  - scipy
   - cudatoolkit=9.0
   - tensorflow
   - h5py
@@ -8,7 +14,5 @@ dependencies:
   - pip
   - pandas
   - numpy
-  - matplotlib
   - scipy
   - scikit-learn
-  - more-itertools
