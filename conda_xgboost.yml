@@ -11,4 +11,5 @@ dependencies:
   - scipy
   - scikit-learn
   - more-itertools
+  - iminuit
 

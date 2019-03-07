@@ -16,3 +16,4 @@ dependencies:
   - numpy
   - scipy
   - scikit-learn
+  - iminuit

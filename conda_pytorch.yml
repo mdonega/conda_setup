@@ -10,3 +10,4 @@ dependencies:
   - matplotlib
   - scipy
   - scikit-learn
+  - iminuit
