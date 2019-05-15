@@ -1,6 +1,6 @@
 name: xgboost
 dependencies:
-  - py-xgboost-gpu
+  - py-xgboost
   - h5py
   - pytables
   - ipykernel
