@@ -1,17 +1,4 @@
 name: python2
 dependencies:
   - nomkl
-  - jupyterlab
-  - pip
-  - pandas
-  - numpy
-  - scipy
-  - h5py
-  - pytables
-  - ipykernel
-  - pip
-  - pandas
-  - numpy
-  - scipy
-  - scikit-learn
   - iminuit

@@ -33,44 +33,12 @@ Add anaconda in your PATH:
 export PATH=$CONDA_FOLDER/bin:$PATH <br>
 ```
 
-Update the base environment (this will go into all other environments)
-```
-conda env update -f conda_base.yml
-source activate base
-pip install -r conda_base_pip.txt
-source deactivate
-```
-
-ROOT
-```
-conda env create -f conda_cern_root.yml
-source activate cern_root
-pip install -r conda_cern_root_pip.txt
-source deactivate
-```
-
 Native python2.7 environment
 ```
 conda create -n python2 python=2.7 anaconda
-conda env create -f conda_python2.yml
+conda env update -f conda_python2.yml
 source activate python2
 pip install -r conda_python2_pip.txt
-source deactivate
-```
-
-PYTORCH
-```
-conda env create -f conda_pytorch.yml
-source activate pytorch
-pip install -r conda_pytorch_pip.txt
-source deactivate
-```
-
-Tensorflow for GPU
-```
-conda env create -f conda_tensorflow_gpu.yml
-source activate tensorflow_gpu
-pip install -r conda_tensorflow_gpu_pip.txt
 source deactivate
 ```
 
