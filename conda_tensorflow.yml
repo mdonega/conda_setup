@@ -1,6 +1,5 @@
 name: tensorflow
 dependencies:
-  - cudatoolkit=9.0
   - tensorflow
   - h5py
   - pytables
