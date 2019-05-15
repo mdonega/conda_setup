@@ -1,3 +1,0 @@
-tqdm
-bayesian-optimization
-uproot

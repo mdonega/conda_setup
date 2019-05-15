@@ -6,8 +6,6 @@ dependencies:
   - pandas
   - numpy
   - scipy
-  - cudatoolkit=9.0
-  - tensorflow
   - h5py
   - pytables
   - ipykernel

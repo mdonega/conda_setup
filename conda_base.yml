@@ -1,9 +1,0 @@
-name: base
-dependencies:
-  - jupyterlab
-  - nb_conda
-  - pip
-  - pandas
-  - numpy
-  - scipy
-  - matplotlib
