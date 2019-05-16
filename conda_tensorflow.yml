@@ -1,6 +1,7 @@
 name: tensorflow
 dependencies:
   - tensorflow
+  - jupyterlab
   - h5py
   - pytables
   - ipykernel
